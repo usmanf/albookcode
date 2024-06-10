@@ -12,6 +12,7 @@
 		B6AD0C6F2C14BDF000DC9170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD0C6E2C14BDF000DC9170 /* ContentView.swift */; };
 		B6AD0C712C14BDF100DC9170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD0C702C14BDF100DC9170 /* Assets.xcassets */; };
 		B6AD0C742C14BDF100DC9170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AD0C722C14BDF100DC9170 /* LaunchScreen.storyboard */; };
+		B6AD0C7B2C173FFE00DC9170 /* Challenge7_3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD0C7A2C173FFE00DC9170 /* Challenge7_3VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B6AD0C6E2C14BDF000DC9170 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6AD0C702C14BDF100DC9170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AD0C732C14BDF100DC9170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AD0C7A2C173FFE00DC9170 /* Challenge7_3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7_3VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				B6AD0C6A2C14BDF000DC9170 /* AppDelegate.swift */,
 				B6AD0C6C2C14BDF000DC9170 /* ViewController.swift */,
+				B6AD0C7A2C173FFE00DC9170 /* Challenge7_3VC.swift */,
 				B6AD0C6E2C14BDF000DC9170 /* ContentView.swift */,
 				B6AD0C702C14BDF100DC9170 /* Assets.xcassets */,
 				B6AD0C722C14BDF100DC9170 /* LaunchScreen.storyboard */,
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AD0C7B2C173FFE00DC9170 /* Challenge7_3VC.swift in Sources */,
 				B6AD0C6D2C14BDF000DC9170 /* ViewController.swift in Sources */,
 				B6AD0C6B2C14BDF000DC9170 /* AppDelegate.swift in Sources */,
 				B6AD0C6F2C14BDF000DC9170 /* ContentView.swift in Sources */,

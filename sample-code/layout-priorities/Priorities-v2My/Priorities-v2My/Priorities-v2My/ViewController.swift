@@ -77,3 +77,59 @@ private extension UIImageView {
     }
     
 }
+
+
+extension UILabel {
+    
+    convenience init(text: String, fontSize: CGFloat = 32, backgroundColor: UIColor = .white) {
+        self.init()
+        self.text = text
+        font = UIFont.systemFont(ofSize: fontSize)
+        numberOfLines = 0
+        self.backgroundColor = backgroundColor
+        translatesAutoresizingMaskIntoConstraints = false
+    }
+
+}
+
+
+// MARK: - ViewController2
+/// Challenge 7.1 Twice As Big If Possible
+
+class ViewController2: UIViewController {
+    
+    let authorLabel = UILabel(text: "William Shakespeare", fontSize: 24, backgroundColor: .systemYellow)
+    
+    let quotationLabel = UILabel(text: "To be, or not to be, that is the question", fontSize: 24, backgroundColor: .systemPurple)
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupView()
+    }
+    
+    func setupView() {
+        view.addSubview(authorLabel)
+        view.addSubview(quotationLabel)
+        
+
+        let quotationWidthConstraint = quotationLabel.widthAnchor.constraint(equalTo: authorLabel.widthAnchor, multiplier: 2)
+        quotationWidthConstraint.priority = .defaultHigh
+
+        
+        let margins = view.layoutMarginsGuide
+        
+        NSLayoutConstraint.activate([
+            authorLabel.leadingAnchor.constraint(equalTo: margins.leadingAnchor),
+            authorLabel.topAnchor.constraint(equalTo: margins.topAnchor),
+            
+            authorLabel.widthAnchor.constraint(greaterThanOrEqualToConstant: 160),
+
+            quotationLabel.trailingAnchor.constraint(equalTo: margins.trailingAnchor),
+            quotationLabel.topAnchor.constraint(equalTo: margins.topAnchor),
+            
+            quotationLabel.leadingAnchor.constraint(equalToSystemSpacingAfter: authorLabel.trailingAnchor, multiplier: 1),
+            
+            quotationWidthConstraint,
+        ])
+    }
+}
