@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "55ABA387-2E5F-4683-B706-AFA1B7833776"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FA1EFC5-A212-4179-8A18-27D10CC61961"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView-v2My/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F65A945F-F8BE-461B-986A-2A848C1D0B4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView-v2My/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "setup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95E42664-94B9-429D-B2EF-447088CDA163"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView-v2My/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "keyboardDidShow(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95E42664-94B9-429D-B2EF-447088CDA163 - 217eab7a84fef313"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScrollView_v2My.AdaptiveScrollView.keyboardDidShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "ScrollView-v2My"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usman/dev/ios/github/usmanf/albookcode/sample-code/scroll-views/ScrollView-v2My/ScrollView-v2My/RootViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "95E42664-94B9-429D-B2EF-447088CDA163 - 217eab7a84fef313"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScrollView_v2My.AdaptiveScrollView.keyboardDidShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "ScrollView-v2My"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usman/dev/ios/github/usmanf/albookcode/sample-code/scroll-views/ScrollView-v2My/ScrollView-v2My/RootViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

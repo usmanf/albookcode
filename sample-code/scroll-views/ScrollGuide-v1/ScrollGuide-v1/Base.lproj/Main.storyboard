@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gci-bM-Z9a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gci-bM-Z9a">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +30,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Skater" translatesAutoresizingMaskIntoConstraints="NO" id="jyQ-Wm-POm">
                                                 <rect key="frame" x="8" y="83" width="359" height="300"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdI-hj-86k">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdI-hj-86k">
                                                 <rect key="frame" x="8" y="391" width="359" height="59"/>
                                                 <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
@@ -55,23 +56,23 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="width" secondItem="G6X-9p-zSP" secondAttribute="width" id="1ew-T1-qgk"/>
-                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="trailing" secondItem="tJ6-I7-PhJ" secondAttribute="trailing" id="KDP-iZ-xBH"/>
-                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="top" secondItem="tJ6-I7-PhJ" secondAttribute="top" id="LG9-bj-5Ii"/>
-                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="bottom" secondItem="tJ6-I7-PhJ" secondAttribute="bottom" id="r2J-8M-SgB"/>
-                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="leading" secondItem="tJ6-I7-PhJ" secondAttribute="leading" id="zsc-Js-uZT"/>
+                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="bottom" secondItem="gfq-IK-L7I" secondAttribute="bottom" id="4WS-qz-7NM"/>
+                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="top" secondItem="gfq-IK-L7I" secondAttribute="top" id="AsB-zv-yWT"/>
+                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="width" secondItem="Woe-Uc-MrR" secondAttribute="width" id="Bvr-5t-xCO"/>
+                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="trailing" secondItem="gfq-IK-L7I" secondAttribute="trailing" id="css-49-cwz"/>
+                                    <constraint firstItem="UjA-Pj-1iI" firstAttribute="leading" secondItem="gfq-IK-L7I" secondAttribute="leading" id="cxT-jR-vCd"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="tJ6-I7-PhJ"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="G6X-9p-zSP"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="gfq-IK-L7I"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Woe-Uc-MrR"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="zyA-Rk-Wsy" secondAttribute="bottom" id="KAP-S7-PGU"/>
-                            <constraint firstItem="zyA-Rk-Wsy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kbx-GE-sof"/>
-                            <constraint firstAttribute="trailing" secondItem="zyA-Rk-Wsy" secondAttribute="trailing" id="fYl-Zl-vXb"/>
-                            <constraint firstItem="zyA-Rk-Wsy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wrx-zY-f8z"/>
+                            <constraint firstItem="zyA-Rk-Wsy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="85H-AN-YO3"/>
+                            <constraint firstAttribute="trailing" secondItem="zyA-Rk-Wsy" secondAttribute="trailing" id="Xcf-O6-Xss"/>
+                            <constraint firstItem="zyA-Rk-Wsy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xui-2Q-elB"/>
+                            <constraint firstAttribute="bottom" secondItem="zyA-Rk-Wsy" secondAttribute="bottom" id="e67-tl-fy0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Activity" id="9dr-9n-FZ9"/>
@@ -86,7 +87,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gci-bM-Z9a" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hi2-h6-POD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
